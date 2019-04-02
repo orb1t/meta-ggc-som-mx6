@@ -34,5 +34,5 @@ Run 'bitbake-layers add-layer meta-ggc-som-mx6'
 II. Build console-only demo image with Freescale’s multimedia packages (VPU and GPU)
 ==================================
 
-Run 'MACHINE=var-som-mx6 DISTRO=fslc-framebuffer . setup-environment build_fb'
+Run 'MACHINE=ggc-som-mx6 DISTRO=fslc-framebuffer . setup-environment build_fb'
 Run 'bitbake fsl-image-machine-test'
